@@ -1,0 +1,28 @@
+@{
+    ViewData["title"] = "Shortest";
+}
+@section Scripts {
+    <script src="~/js/short.js"></script>
+}
+
+<h2>The Shortest Route</h2>
+<form id="Form_Shortest">
+    <ul style="list-style-type: none;">
+        <li>
+            <label for="TextBox_Start">From: &nbsp;</label>
+            <input id="TextBox_Start" name="Start" class=""/>
+        </li>
+        <li>
+            <label for="TextBox_Dest">To: &nbsp;</label>
+            <input id="TextBox_Dest" name="Dest" class=""/>
+        </li>
+        <li>
+            <input type="button" value="Submit" id="ButtonSubmit" /> 
+            <input type="reset" value="Clear" />
+        </li>
+    </ul>
+</form>
+<div>
+    <ul class="output">
+    </ul>
+</div>

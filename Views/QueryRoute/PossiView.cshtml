@@ -1,0 +1,35 @@
+@{
+    ViewData["title"] = "Possibilities";
+}
+@section Scripts {
+    <script src="~/js/possibilities.js"></script>
+}
+
+<h2>The Possible Routes</h2>
+<form id="Form_Possibilities">
+    <ul style="list-style-type: none;" class="result1">
+        
+        <li>
+            @Html.Label("From：") 
+            @Html.TextBox("Start", "", new { id = "TextBox_Start" })
+        </li>
+        <li>    
+            @Html.Label("To：") 
+            @Html.TextBox("Dest", "", new { id = "TextBox_Dest" })
+        </li>
+        <li>
+            @Html.Label("MaxStop: ") 
+            @Html.TextBox("Max", "", new { id = "TextBox_Max", name = "TextBox_Max" })
+        </li>
+        <li>
+            <input type="button" value="Submit" id="ButtonSubmit" /> 
+            <input type="reset" value="Clear" />
+        </li>
+        
+        
+    </ul>
+</form>
+<div>
+    <ul class="output">
+    </ul>
+</div>

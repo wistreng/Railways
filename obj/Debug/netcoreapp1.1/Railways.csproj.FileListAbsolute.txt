@@ -1,0 +1,8 @@
+/Users/lijia/Study/Railways/bin/Debug/netcoreapp1.1/Railways.deps.json
+/Users/lijia/Study/Railways/bin/Debug/netcoreapp1.1/Railways.runtimeconfig.json
+/Users/lijia/Study/Railways/bin/Debug/netcoreapp1.1/Railways.runtimeconfig.dev.json
+/Users/lijia/Study/Railways/bin/Debug/netcoreapp1.1/Railways.dll
+/Users/lijia/Study/Railways/bin/Debug/netcoreapp1.1/Railways.pdb
+/Users/lijia/Study/Railways/obj/Debug/netcoreapp1.1/Railways.AssemblyInfo.cs
+/Users/lijia/Study/Railways/obj/Debug/netcoreapp1.1/Railways.dll
+/Users/lijia/Study/Railways/obj/Debug/netcoreapp1.1/Railways.pdb

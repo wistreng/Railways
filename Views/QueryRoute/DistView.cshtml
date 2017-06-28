@@ -1,0 +1,24 @@
+@{
+    ViewData["title"] = "Distance";
+}
+@section Scripts {
+    <script src="~/js/distance.js"></script>
+}
+
+<h2>The Route Distance</h2>
+<form id="Form_Distance">
+    <ul style="list-style-type: none;">
+        <li>
+            @Html.Label("Test Route is: ") 
+            @Html.TextBox("Route", "", new { id="TextBox_Route" })
+        </li>
+        <li>
+            <input type="button" value="Submit" id="ButtonSubmit" /> 
+            <input type="reset" value="Clear" />
+        </li>
+    </ul>
+</form>
+<div>
+    <ul class="output">
+    </ul>
+</div>
